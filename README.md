@@ -1,7 +1,7 @@
 # OZ-Automatic-Recorder
 ![logo](https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/logo.png)
 
-## OBS-Zoom Automatic Recorder
+## OBS-Zoom Automatic Recorder for Windows users
 Zoom Meetings Automatic Recorder using OBS Studio
 
 This App provides the ability to automatically open a zoom Meeting at a specific time and record it using the OBS Studio software. More information about the functionality and abilities of the App are given below.
