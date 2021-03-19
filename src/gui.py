@@ -146,7 +146,7 @@ class Gui:
         b_delete.config(font = myFont)
         b_delete.grid(row = 2, column=2, sticky = 'nsew')
 
-        b_deleteAll = tk.Button(schedulewindow, text = 'Delete All Meetings', bg = 'black', fg = 'white', command = deleteAll)
+        b_deleteAll = tk.Button(schedulewindow, text = 'Delete All Scheduled Recordings', bg = 'black', fg = 'white', command = deleteAll)
         b_deleteAll.grid(row = 3, columnspan=3, sticky = 'nsew')
 
     def closeTopLevels(self):
@@ -213,7 +213,7 @@ class Gui:
         e_link.event_add('<<Paste>>', '<Control-V>')
         e_link.event_add('<<Paste>>', '<Control-v>')
 
-        l_hour = tk.Label(scheduleDialog, text = "Recording start time(hour): ")
+        l_hour = tk.Label(scheduleDialog, text = "Recording start time(hour): \n [0-23]")
         l_hour.grid(row=1, column=0)
         e_hour = tk.Entry(scheduleDialog, bg = 'white', fg = 'black')
         e_hour.grid(row=1, column=1,padx=20, pady=20)
@@ -221,21 +221,21 @@ class Gui:
         e_hour.event_add('<<Paste>>', '<Control-V>')
         hour = e_hour.get()
 
-        l_min = tk.Label(scheduleDialog, text = "Recording start time(min): ")
+        l_min = tk.Label(scheduleDialog, text = "Recording start time(min): \n[0-59]")
         l_min.grid(row=2, column=0,padx=20, pady=20)
         e_min = tk.Entry(scheduleDialog, bg = 'white', fg = 'black')
         e_min.grid(row=2, column=1,padx=20, pady=20)
         e_link.event_add('<<Paste>>', '<Control-v>')
         e_min.event_add('<<Paste>>', '<Control-V>')
 
-        l_durH = tk.Label(scheduleDialog, text = "Duration(hours): ")
+        l_durH = tk.Label(scheduleDialog, text = "Duration(hours): \n[0-23]")
         l_durH.grid(row=3, column=0,padx=20, pady=20)
         e_durH = tk.Entry(scheduleDialog, bg = 'white', fg = 'black')
         e_durH.grid(row=3, column=1,padx=20, pady=20)
         e_link.event_add('<<Paste>>', '<Control-v>')
         e_durH.event_add('<<Paste>>', '<Control-V>')
 
-        l_durMin = tk.Label(scheduleDialog, text = "Duration(Minutes): ")
+        l_durMin = tk.Label(scheduleDialog, text = "Duration(Minutes): \n[0-59]")
         l_durMin.grid(row=4, column=0,padx=20, pady=20)
         e_durMin = tk.Entry(scheduleDialog, bg = 'white', fg = 'black')
         e_durMin.grid(row=4, column=1,padx=20, pady=20)

@@ -16,7 +16,7 @@ def saveSchedule(link, hour, minutes, durH, durMin, day):
         if integers_list[i].isdigit() == False:
             areIntegers = False
             break
-    if 0<=int(hour)<=24 and 0<=int(minutes)<=59 and 0<=int(durH)<=23 and 0<=int(durMin)<=59:
+    if 0<=int(hour)<=23 and 0<=int(minutes)<=59 and 0<=int(durH)<=23 and 0<=int(durMin)<=59  and day != '':
         validity = True
     if areIntegers and validity:
         try:
