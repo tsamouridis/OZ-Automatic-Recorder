@@ -27,10 +27,15 @@ User schould eneter the necessary information. Here is an image of the dialog th
 
 <img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo3.png" alt="demo3" width="300"/> 
 
+### Scheduled Recordings:
+Here, user can inspect all the saved recordings and delete them.
+
+<img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo4.png" alt="demo4" width="300"/> 
+
 ### Path configuration:
 User schould provide the correct path of obs executable so that OBS starts automatically with no problem. Default path is also given as an option.
 
-<img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo4.png" alt="demo4" width="300"/> 
+<img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo5.png" alt="demo5" width="300"/> 
 
 ## OBS settings:
 When using this app, OBS scould be installed in user's system. Moreover, OBS schould be set to record Zoom.exe or the whole screen
