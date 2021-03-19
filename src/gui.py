@@ -1,7 +1,6 @@
 """
-Contains class Gui denoting the User Interface of the App
+Author: Tsamouridis Anastasios Athanasios
 """
-
 import tkinter as tk
 from tkinter.font import Font
 from tkinter import messagebox, ttk
