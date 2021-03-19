@@ -168,7 +168,7 @@ class Gui:
         self.autoRec.start()
         self.autoRec.stop()
         if self.b_runApp.cget('text') != 'Run':
-            self.root.after(1000, self.callEverySec)
+            self.root.after(30000, self.callEverySec)
         
 
     def clickOn_b_runApp(self):
