@@ -1,6 +1,3 @@
-"""
-Author: Tsamouridis Anastasios Athanasios
-"""
 import tkinter as tk
 from tkinter.font import Font
 from tkinter import messagebox, ttk
@@ -293,5 +290,3 @@ class Gui:
         b_confirm.grid(row=6, column=0,padx=20, pady=20)
         b_discard = tk.Button(scheduleDialog, text = "Clear", font = button_font, command = emptyEntries)
         b_discard.grid(row=6, column=1,padx=20, pady=20)
-        
-Gui()
