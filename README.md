@@ -16,9 +16,10 @@ As seen above, the App provides the following choices to the user:
 * **Path configuration:** Here user can edit the OBS path in his/her system. He/She can also set the path to default, provided that the OBS is stored at:
   **C:/Program Files/obs-studio/bin/64bit**
 
-### Run Button
+### Run
 If user wants to record a meeting he/she schould have pressed *Run* button. The interface will look like the following image. 
 **Warning:** App schould not be terminated. It scould at least, run minimized.
+To stop app from running press Stop Running button
 
 <img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo2.png" alt="demo2" width="300"/> 
 
