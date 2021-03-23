@@ -8,6 +8,9 @@ This App provides the ability to automatically open a zoom Meeting at a specific
 
 <img src="https://github.com/tsamourid/OZ-Automatic-Recorder/blob/master/images/demo1.png" alt="demo1" width="300"/> 
 
+## Disclaimer
+This app is not tested thoroughly, so user may encounter some problems. Improvements may be added later on.
+
 ## How to use
 As seen above, the App provides the following choices to the user:
 * **Run:** When this button is pressed OZ checks the scheduled meetings and starts a meeting and records it at the date and time specified by the user.
