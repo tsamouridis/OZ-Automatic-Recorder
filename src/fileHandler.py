@@ -30,7 +30,11 @@ def saveSchedule(link, hour, minutes, durH, durMin, day):
             numOfInsert = len(f.readlines())+1
             f.close()
             f = open("data_files/prettySchedules.txt", "a")
-            info = str(numOfInsert) + ". " + day + ": " + hour + ":" + minutes + ", Duration: " + durH + ":" + durMin + ", Link: " + link
+            if len(minutes) == 1:
+                minutes = '0'+minutes
+            if len(durMin)==1:
+                durMin = '0'+durMin
+            info = str(numOfInsert) + ". " + day + " at: " + hour + ":" + minutes + ", Duration: " + durH + ":" + durMin + ", Link: " + link
             f.write(info)
             f.write('\n')
             f.close()
