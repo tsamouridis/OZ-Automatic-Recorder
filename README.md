@@ -15,7 +15,7 @@ This app is not tested thoroughly, so user may encounter some problems. Improvem
 As seen above, the App provides the following choices to the user:
 * **Run:** When this button is pressed OZ checks the scheduled meetings and starts a meeting and records it at the date and time specified by the user.
 * **Schedule a Recording:** Opens a dialog to the user and schedules a recording. User schould provide meeting's link,date and time of the meeting, and duration of it.
-* **Scheduled Recordings:** Opens a cotalog with all the scheduled meetings. At this window user can also delete one ore all the recordings.
+* **Scheduled Recordings:** Opens a catalog with all the scheduled meetings. At this window user can also delete one ore all the recordings.
 * **Path configuration:** Here user can edit the OBS path in his/her system. He/She can also set the path to default, provided that the OBS is stored at:
   **C:/Program Files/obs-studio/bin/64bit**
 
